@@ -40,7 +40,7 @@ module HandlebarsAssets
     end
 
     def template_namespace
-      @template_namespace || 'HandlebarsTemplates'
+      @template_namespace || 'Ember.TEMPLATES' # 'HandlebarsTemplates'
     end
 
     private
